@@ -4,6 +4,34 @@ import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const projects = [
+   {
+    title: 'Maruti Suzuki Arena',
+    description: 'Developed responsive pages for Maruti Suzuki Arena using Sitecore CMS and React components, along with building 650+ dealership admin portals with React.js for streamlined management and user experience.',
+    image: 'https://etimg.etb2bimg.com/photo/77845583.cms',
+    tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design', 'Sitecore CMS'],
+    liveUrl: 'https://www.marutisuzuki.com/arena',
+  },
+   {
+    title: 'IndiaIstore',
+    description: 'Developed multiple responsive pages from scratch for INDIAiSTORE using HTML, CSS, JavaScript, and modern frontend development practices, focusing on performance, responsive design, and seamless user experience across devices.',
+    image: 'https://www.indiaistore.com/themes/frontend/custom/images/about_us/1366X551.jpg',
+    tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design'],
+    liveUrl: 'https://www.indiaistore.com/',
+  },
+  {
+    title: 'Sify',
+    description: 'Developed responsive pages for Sify using Drupal CMS and React components, ensuring seamless user experience and efficient content management.',
+    image: 'https://apacnewsnetwork.com/wp-content/uploads/2024/10/NEWS-THUMBNAILS-3685.png',
+    tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design', 'Drupal CMS'],
+    liveUrl: 'https://www.sifytechnologies.com/',
+  },
+  {
+    title: 'Conon',
+    description: 'Developed desktop and responsive web pages for Canon using HTML, CSS, and JavaScript, ensuring a seamless and user-friendly experience across devices.',
+    image: 'https://www.shutterstock.com/image-photo/canon-america-headquarters-campus-silicon-260nw-2656102725.jpg',
+    tags: ['HTML', 'Vanilla CSS', 'JavaScript (ES6)',  'Bootstrap 4/5', 'Responsive Design'],
+    liveUrl: 'https://in.canon/en/consumer',
+  },
   {
     title: 'TimesAstro',
     description: 'Built a responsive TimesAstro landing page using React.js, HTML, and Vanilla CSS with optimized UI and mobile-friendly design.',
@@ -40,32 +68,11 @@ const projects = [
     liveUrl: 'https://navbharattimes.indiatimes.com/',
   },
   {
-    title: 'IndiaIstore',
-    description: 'Developed multiple responsive pages from scratch for INDIAiSTORE using HTML, CSS, JavaScript, and modern frontend development practices, focusing on performance, responsive design, and seamless user experience across devices.',
-    image: 'https://www.indiaistore.com/themes/frontend/custom/images/about_us/1366X551.jpg',
-    tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design'],
-    liveUrl: 'https://www.indiaistore.com/',
-  },
-  {
-    title: 'Maruti Suzuki Arena',
-    description: 'Developed responsive pages for Maruti Suzuki Arena using Sitecore CMS and React components, along with building 650+ dealership admin portals with React.js for streamlined management and user experience.',
-    image: 'https://etimg.etb2bimg.com/photo/77845583.cms',
-    tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design', 'Sitecore CMS'],
-    liveUrl: 'https://www.marutisuzuki.com/arena',
-  },
-  {
-    title: 'Sify',
-    description: 'Developed responsive pages for Sify using Drupal CMS and React components, ensuring seamless user experience and efficient content management.',
-    image: 'https://apacnewsnetwork.com/wp-content/uploads/2024/10/NEWS-THUMBNAILS-3685.png',
+    title: 'Max Bupa',
+    description: 'Developed responsive web pages for Max Bupa using HTML, CSS, and JavaScript, focusing on clean UI, performance, and seamless user experience across devices.',
+    image: 'https://cdn.tracxn.com/images/seo/social/companies/max-bupa-overview-1752313878591.webp',
     tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design', 'Drupal CMS'],
-    liveUrl: 'https://www.sifytechnologies.com/',
-  },
-  {
-    title: 'Conon',
-    description: 'Developed desktop and responsive web pages for Canon using HTML, CSS, and JavaScript, ensuring a seamless and user-friendly experience across devices.',
-    image: 'https://www.shutterstock.com/image-photo/canon-america-headquarters-campus-silicon-260nw-2656102725.jpg',
-    tags: ['HTML', 'Vanilla CSS', 'JavaScript (ES6)',  'Bootstrap 4/5', 'Responsive Design'],
-    liveUrl: 'https://in.canon/en/consumer',
+    liveUrl: 'https://www.nivabupa.com/',
   },
   {
     title: 'American Express',
@@ -73,13 +80,7 @@ const projects = [
     image: 'https://www.shutterstock.com/image-photo/toronto-canada-september-10-2024-600nw-2515615033.jpg',
     tags: ['HTML', 'CSS', 'CheetahMail', 'Responsive Emailers'],
   },
-  {
-    title: 'Max Bupa',
-    description: 'Developed responsive web pages for Max Bupa using HTML, CSS, and JavaScript, focusing on clean UI, performance, and seamless user experience across devices.',
-    image: 'https://cdn.tracxn.com/images/seo/social/companies/max-bupa-overview-1752313878591.webp',
-    tags: ['React.js', 'JavaScript', 'Bootstrap 4/5', 'Responsive Design', 'Drupal CMS'],
-    liveUrl: 'https://www.nivabupa.com/',
-  },
+ 
   {
     title: 'Design Microsites in Figma',
     description: 'Designed responsive microsites in Figma with modern UI layouts, user-focused design, and seamless user experience across desktop and mobile devices.',

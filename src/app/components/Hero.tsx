@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import { Github, Linkedin, Mail, Download } from 'lucide-react';
 import { motion } from 'motion/react';
-import resume from '../assets/MohitResume.pdf';
+import resume from '../assets/MohitResumeNew.pdf';
 
 export default function Hero(props) {
   return (

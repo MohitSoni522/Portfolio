@@ -81,7 +81,7 @@ export default function Hero(props) {
 
           <div className="flex gap-4">
             <a
-              href="https://github.com"
+              href="https://mohitsoni522.github.io/Portfolio/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"

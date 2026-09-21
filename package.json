@@ -7,7 +7,8 @@
     "build": "vite build",
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "homepage": "https://mohitsoni522.github.io/portfolio/"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
